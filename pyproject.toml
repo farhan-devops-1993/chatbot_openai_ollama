@@ -1,0 +1,15 @@
+[project]
+name = "chatbot-krish-aug1-2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-community>=0.3.27",
+    "langchain-core>=0.3.72",
+    "langchain-ollama>=0.3.6",
+    "langchain-openai>=0.3.28",
+    "langserve>=0.3.1",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.47.1",
+]
